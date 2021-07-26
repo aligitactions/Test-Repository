@@ -1114,6 +1114,8 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>New_object__c.Currency__c</members>
+        <members>New_object__c.Mobile__c</members>
         <members>New_object__c.Text_Field__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
@@ -1676,6 +1678,9 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>Test_object__c.Custom_Text__c</members>
+        <members>Test_object__c.New_Text_Field__c</members>
+        <members>Test_object__c.Test_Picklist__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -1936,6 +1941,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Test_object__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
