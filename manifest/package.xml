@@ -2,6 +2,7 @@
     <version>50.0</version>
     <types>
         <members>Account_Insert</members>
+        <members>contact_Insert</members>
         <members>opportunity_insert</members>
         <name>ApexClass</name>
     </types>
