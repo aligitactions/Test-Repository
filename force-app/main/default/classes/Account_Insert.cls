@@ -6,11 +6,7 @@ public class Account_Insert {
 
     a.name='hdfc';
 
-    a.Industry='banking';
-
-    a.rating='hot';
-
-        insert a;
+   insert a;
 
     }
 
