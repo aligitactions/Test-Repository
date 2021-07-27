@@ -1120,9 +1120,6 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
-        <members>New_object__c.Currency__c</members>
-        <members>New_object__c.Mobile__c</members>
-        <members>New_object__c.Text_Field__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -1891,7 +1888,6 @@
         <members>ManagedContentVersion</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
-        <members>New_object__c</members>
         <members>OperatingHours</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
