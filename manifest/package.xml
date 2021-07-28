@@ -1862,6 +1862,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>First_object__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
