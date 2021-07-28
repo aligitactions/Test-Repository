@@ -2287,6 +2287,7 @@
     <types>
         <members>Admin</members>
         <members>Chatter Free User</members>
+        <members>Force%2Ecom - Free User</members>
         <members>Standard</members>
         <name>Profile</name>
     </types>
