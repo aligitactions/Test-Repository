@@ -3206,9 +3206,6 @@
         <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>New_object__c-New object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3237,9 +3234,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_object__c-Test object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
