@@ -7,7 +7,7 @@ public class Account_Insert {
     a.name='hdfc';
 
    insert a;
-
+System.debug('@@@'+a);
     }
 
  
