@@ -1683,10 +1683,6 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
-        <members>Test_object__c.Custom_Text__c</members>
-        <members>Test_object__c.New_Text_Field__c</members>
-        <members>Test_object__c.Phone__c</members>
-        <members>Test_object__c.Test_Picklist__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -1948,7 +1944,6 @@
         <members>StreamingChannel</members>
         <members>Student__c</members>
         <members>Task</members>
-        <members>Test_object__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
