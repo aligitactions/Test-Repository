@@ -1955,6 +1955,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>second_obj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -2284,7 +2285,6 @@
         <members>Admin</members>
         <members>Chatter Free User</members>
         <members>Force%2Ecom - Free User</members>
-        <members>Standard</members>
         <name>Profile</name>
     </types>
     <types>
