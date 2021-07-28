@@ -9,6 +9,7 @@ public class Account_Insert {
    insert a;
 //System.debug('@@@'+a);
 //System.debug('%%%%' +a);
+System.debug('*****'+a);
 
     }
 
