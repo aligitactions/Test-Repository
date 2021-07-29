@@ -1,0 +1,53 @@
+# node > 14.6.0 is required for the SFDX-Git-Delta plugin
+FROM node:14.14-alpine
+
+#add usefull tools
+RUN apk add --update --no-cache  \
+  git \
+  findutils \
+  bash \
+  unzip \
+  curl \
+  wget \
+  nodejs-npm \
+  openjdk8-jre \
+  openssh-client \
+  perl \
+  jq
+
+COPY /server.crt /etc/pki/tls/certs/
+COPY /server.key /etc/pki/tls/private/
+
+RUN chmod 0600 /etc/pki/tls/private/server.key
+
+# Set XDG environment variables explicitly so that GitHub Actions does not apply
+# default paths that do not point to the plugins directory
+# https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+ENV XDG_DATA_HOME=/sfdx_plugins/.local/share
+ENV XDG_CONFIG_HOME=/sfdx_plugins/.config
+ENV XDG_CACHE_HOME=/sfdx_plugins/.cache
+
+# Create isolated plugins directory with rwx permission for all users
+# Azure pipelines switches to a container-user which does not have access
+# to the root directory where plugins are normally installed
+RUN mkdir -p $XDG_DATA_HOME && \
+  mkdir -p $XDG_CONFIG_HOME && \
+  mkdir -p $XDG_CACHE_HOME && \
+  chmod -R 777 sfdx_plugins
+
+RUN export XDG_DATA_HOME && \
+  export XDG_CONFIG_HOME && \
+  export XDG_CACHE_HOME
+
+# install Salesforce CLI from npm
+RUN npm install sfdx-cli --global
+RUN sfdx --version
+
+# install SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
+RUN echo y | sfdx plugins:install sfdx-git-delta
+
+# install SFDX-Git-packager - https://github.com/callawaycloud/sfdx-git-packager
+RUN echo y | sfdx plugins:install sfdx-git-packager
+
+#install SF-PowerKit - https://github.com/Accenture/sfpowerkit
+RUN echo y | sfdx plugins:install sfpowerkit
