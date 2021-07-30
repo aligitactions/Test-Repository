@@ -1341,6 +1341,8 @@
         <members>PricebookEntry.StandardPrice</members>
         <members>PricebookEntry.UnitPrice</members>
         <members>PricebookEntry.UseStandardPrice</members>
+        <members>Prj_object__c.Location__c</members>
+        <members>Prj_object__c.Prj_Name__c</members>
         <members>ProcessException.AttachedToId</members>
         <members>ProcessException.CaseId</members>
         <members>ProcessException.Category</members>
@@ -1912,6 +1914,7 @@
         <members>PaymentMethod</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
+        <members>Prj_object__c</members>
         <members>ProcessException</members>
         <members>Product2</members>
         <members>ProductConsumptionSchedule</members>
@@ -2100,6 +2103,7 @@
         <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Prj_object__c-Prj object Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
