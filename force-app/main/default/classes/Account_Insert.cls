@@ -5,7 +5,9 @@ public class Account_Insert {
     account a= new account();
 
     a.name='hdfc';
-
+    
+    a.CustomerPriority__c='Medium';
+    a.SLA__c='Platinum';
    insert a;
 //System.debug('@@@'+a);
 //System.debug('%%%%' +a);
