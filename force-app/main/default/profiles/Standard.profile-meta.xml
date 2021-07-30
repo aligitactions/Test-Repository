@@ -11,8 +11,21 @@
         <field>Git_object__c.Designation__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_object__c.Attendee__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_object__c.currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Git_object__c-Git object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>sf_object__c-sf object Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

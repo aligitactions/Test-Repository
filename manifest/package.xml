@@ -1792,6 +1792,8 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>sf_object__c.Attendee__c</members>
+        <members>sf_object__c.currency__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -1959,6 +1961,7 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <members>second_obj__c</members>
+        <members>sf_object__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -2135,6 +2138,7 @@
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <members>sf_object__c-sf object Layout</members>
         <name>Layout</name>
     </types>
     <types>
