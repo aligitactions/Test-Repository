@@ -8,7 +8,7 @@ public class contact_Insert {
 
     c.MobilePhone='1234567890';
 
-    c.Email='test@gmail.com';
+    //c.Email='test@gmail.com';
 
         insert c;
 
